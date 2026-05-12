@@ -72,3 +72,6 @@ public:
     //is empthy operation: check of the stack is empthy
     bool isempty()
     {
+        return top == NULL; //return true if the top pointer is null, indicatig an empty stack
+    }
+};
